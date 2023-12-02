@@ -22,7 +22,7 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: fuze365/curriculum-back
-        dockerfile: curriculum-back/Dockerfile
+        dockerfile: Light-dark-mode/Dockerfile
         tags: latest
 
   build-and-deploy-front:
@@ -38,5 +38,5 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: fuze365/curriculum-front
-        dockerfile: curriculum-front/Dockerfile
+        dockerfile: Light-dark-mode/Dockerfile
         tags: latest
